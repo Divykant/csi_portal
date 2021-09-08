@@ -6,6 +6,7 @@ const Home = ()  =>{
  
   return(
     <>
+    <div className="main_div">
     <div className="home_div">
     <h1 className="top_heading">CINE'21 </h1>
     <h2 className="sub_heading">Instructions </h2>
@@ -28,19 +29,20 @@ const Home = ()  =>{
     <span className="lastspan">Choose a language according to your prefernce</span><br />
     <div className="dropdown">
         <div className="dropdown-select">
-            <button className="select">Language</button>
+            <button className="lang_btn">Language</button>
             <i className="fa fa-caret-down icon"></i>
         </div>
         <div className="dropdown-list">
-            <button className="dropdown-list_item">C</button>
-            <button className="dropdown-list_item">C++</button>
-            <button className="dropdown-list_item">JAVA</button>
-            <button className="dropdown-list_item">PYTHON</button>
+            <button className="lang_optn_btn">C</button>
+            <button className="lang_optn_btn">C++</button>
+            <button className="lang_optn_btn">JAVA</button>
+            <button className="lang_optn_btn">PYTHON</button>
         </div>
     </div>
     <br />
     <br />
     <button type="submit" className="home_submit"> Start Your Exam</button>
+    </div>
     </div>
     </>
   );
