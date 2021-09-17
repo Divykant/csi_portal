@@ -1,0 +1,101 @@
+
+.girl_img{
+    position: absolute;
+    width: 90%;
+    right: 20px;
+    top: -10px;
+}
+.login_img{
+    
+    position: absolute;
+width: 30%;
+left: 161px;
+top: 34px;
+}
+.form_area{
+    position: absolute;
+width: 650px;
+height: 359px;
+left: 89px;
+top: 280px;
+
+background: #FFFFFF;
+border: 2px solid #FEC68D;
+box-sizing: border-box;
+border-radius: 97px;
+}
+.input2{
+    position: absolute;
+width: 439px;
+height: 46.23px;
+left: 100px;
+top: 162.84px;
+background: rgba(255, 255, 255, 0.79);
+
+padding-left: 9%;
+border: 1px solid #B7B4B4;
+box-sizing: border-box;
+border-radius: 8px;
+cursor: pointer;
+color: #B7B4B4;
+}
+.input1{
+    position: absolute;
+    cursor: pointer;
+width: 439px;
+height: 46.23px;
+left: 100px;
+top: 88.84px;
+padding-left: 9%;
+background: rgba(255, 255, 255, 0.79);
+border: 1px solid #B7B4B4;
+box-sizing: border-box;
+border-radius: 8px;
+color: #B7B4B4;
+}
+.user_svg{
+    position: absolute;
+width: 33px;
+height: 33px;
+left: 116px;
+top: 88.84px;
+color: #000;
+}
+.pass_svg{
+    position: absolute;
+width: 33px;
+height: 33px;
+left: 116px;
+top: 162.84px;
+color: #000;
+}
+.submit_button{
+    position: absolute;
+width: 198px;
+height: 53px;
+left: 222px;
+top: 230px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background: #80C8F0;
+border: none;
+border-radius: 8px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #fff;
+}
+.lastLine{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 232px;
+top: 290px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+span{
+    color: #FEC68D;
+}
