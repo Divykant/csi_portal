@@ -5,7 +5,7 @@ import Login from "./Components/Login";
 const App = () =>{
   return(
     <>
-    <Login />
+    <Home/>
     </>
   );
 };
