@@ -1,24 +1,26 @@
+*{
+    width: 100%;
 
+}
 .girl_img{
     position: absolute;
     width: 90%;
-    right: 20px;
-    top: -10px;
+    right: 2%;
+    top: -9%;
 }
 .login_img{
     
     position: absolute;
 width: 30%;
-left: 161px;
-top: 34px;
+left: 12%;
+top: 3%;
 }
 .form_area{
     position: absolute;
-width: 650px;
-height: 359px;
-left: 89px;
-top: 280px;
-
+width: 47%;
+height: 50%;
+left: 7%;
+top: 42%;
 background: #FFFFFF;
 border: 2px solid #FEC68D;
 box-sizing: border-box;
@@ -26,12 +28,11 @@ border-radius: 97px;
 }
 .input2{
     position: absolute;
-width: 439px;
+width: 60%;
 height: 46.23px;
 left: 100px;
-top: 162.84px;
+top: 43%;
 background: rgba(255, 255, 255, 0.79);
-
 padding-left: 9%;
 border: 1px solid #B7B4B4;
 box-sizing: border-box;
@@ -42,10 +43,10 @@ color: #B7B4B4;
 .input1{
     position: absolute;
     cursor: pointer;
-width: 439px;
+width: 60%;
 height: 46.23px;
 left: 100px;
-top: 88.84px;
+top: 23%;
 padding-left: 9%;
 background: rgba(255, 255, 255, 0.79);
 border: 1px solid #B7B4B4;
@@ -58,7 +59,7 @@ color: #B7B4B4;
 width: 33px;
 height: 33px;
 left: 116px;
-top: 88.84px;
+top: 23%;
 color: #000;
 }
 .pass_svg{
@@ -66,15 +67,15 @@ color: #000;
 width: 33px;
 height: 33px;
 left: 116px;
-top: 162.84px;
+top: 44%;
 color: #000;
 }
 .submit_button{
     position: absolute;
 width: 198px;
 height: 53px;
-left: 222px;
-top: 230px;
+left: 30%;
+top: 65%;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 background: #80C8F0;
 border: none;
@@ -89,8 +90,8 @@ color: #fff;
     position: absolute;
 width: 283px;
 height: 36px;
-left: 232px;
-top: 290px;
+left: 30%;
+top: 80%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
