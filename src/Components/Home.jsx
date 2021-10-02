@@ -11,9 +11,9 @@ export default function Home() {
 
     <div className="main_div">
        <div className="home_div">
-       <Scrollbars style={{width:"100%", heigth:"100%"}}
+       <Scrollbars className="scroll" style={{width:"100%", heigth:"100%"}}
        //autoHideDuration={200}
->
+        >
 
          <p className="home_p">
          <ul className="home_ul">

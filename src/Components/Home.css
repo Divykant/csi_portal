@@ -10,7 +10,7 @@ top: 30%;
 border: 1px solid #F7A707;
 box-sizing: border-box;
 border-radius: 46px;
-margin-top: -10px;
+margin-top: -20px;
 }
 .top_heading{
   position: absolute;
@@ -18,7 +18,7 @@ margin-top: -10px;
   height: 85px;
   left: 35%;
   top: 29px;
-  margin-top: 0px;
+  margin-top: -20px;
   font-family: Lilita One;
   font-style: normal;
   font-weight: normal;
@@ -39,13 +39,14 @@ margin-top: -10px;
   font-family: Gabriela;
   font-style: normal;
   font-weight: normal;
-  margin-top: 0px;
+  margin-top: -20px;
   font-size: 41px;
   line-height: 51px;
   letter-spacing: 0.015em;
   color: #FEC68D;
 }
 .home_p{
+  margin-top: -20px;
   margin-left: -100px;
 position: absolute;
 width: 95%;
@@ -55,16 +56,16 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 21px;
-line-height: 329.7%;
+line-height: 229.7%;
 letter-spacing: 0.075em;
-color: #A89A9A;
+color: #3d3d3d;
 }
 .selLang{
 position: absolute;
 width: 111px;
 height: 31px;
 left: 360px;
-top: 340%;
+top: 240%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -105,15 +106,13 @@ color: #FFFFFF;
 }
 .top_heading{
   text-align: center;
-  color: #130b79;
   font-weight:900;
   font-size: 70px;
 }
 .sub_heading{
   margin-bottom: 10px;
   text-align: center;
-  font-size: 40px;
-  color: #4db3cf;
+  font-size: 30px;
 }
 .home_span{
   font-weight: bold;
@@ -124,7 +123,7 @@ color: #FFFFFF;
 width: 645px;
 height: 43px;
 left: 28%;
-top: 327%;
+top: 225%;
 
 font-family: Roboto;
 font-style: normal;
@@ -139,7 +138,7 @@ color: #A89A9A;
 }
 .home_submit{
   border: 2px solid;
-  background-color: #229d8e;
+  background-color: #80C8F0;
   border: none;
   border-radius: 5px;
   font-size: 18px;
@@ -148,7 +147,7 @@ color: #A89A9A;
   cursor: pointer;
   color: #fff;
   font-weight: bold;
-  top: 360%;
+  top: 260%;
   left: 38%;
 }
 .main_div{flex: 1 100%;
@@ -163,12 +162,15 @@ color: #A89A9A;
   padding: 40px;
   box-shadow: 0 3px 18px lightgray;
   text-align: center;
-  margin-top: -5px;
+  margin-top: -20px;
   flex: 1 100%;
 }
 .home_li{
   margin-bottom: 10px;
+  font-weight: 400;
+  color: rgb(26, 26, 26);
 }
+
 .home_ul{
   text-align: left;
 }
