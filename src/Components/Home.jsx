@@ -6,15 +6,16 @@ export default function Home() {
     return (
   <>
   <div className="topmost">
+  <div className="headingCont">
   <h1 className="top_heading">CINE'21 </h1>
+  
   <h2 className="sub_heading">Instructions </h2>
-
-    <div className="main_div">
+  </div>
+     <div className="main_div">
        <div className="home_div">
        <Scrollbars className="scroll" style={{width:"100%", heigth:"100%"}}
        //autoHideDuration={200}
         >
-
          <p className="home_p">
          <ul className="home_ul">
             <li className="home_li">This exam contains 4 mandatory categories namely as HTML, CSS, APTITUDE and SQL.</li>

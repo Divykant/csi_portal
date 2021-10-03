@@ -1,6 +1,12 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+.headingCont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .home_div{ 
 position: absolute;
 width: 90%;
@@ -16,7 +22,7 @@ margin-top: -20px;
   position: absolute;
   width: 486px;
   height: 85px;
-  left: 35%;
+  text-align: center;
   top: 29px;
   margin-top: -20px;
   font-family: Lilita One;
@@ -24,17 +30,13 @@ margin-top: -20px;
   font-weight: normal;
   font-size: 71.3043px;
   line-height: 85px;
-  
   letter-spacing: 0.045em;
-  
   color: #80C8F0;
-  
 }
 .sub_heading{
   position: absolute;
   width: 243px;
   height: 51px;
-  left: 44%;
   top: 115px;
   font-family: Gabriela;
   font-style: normal;
@@ -113,6 +115,10 @@ color: #FFFFFF;
   margin-bottom: 10px;
   text-align: center;
   font-size: 30px;
+  
+}
+h1{
+  text-align: center;
 }
 .home_span{
   font-weight: bold;

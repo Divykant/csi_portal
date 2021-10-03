@@ -2,18 +2,25 @@
     width: 100%;
 
 }
+.login_side{
+    background-color: aqua;
+}
+.img_side{
+    width: 47%;
+    background-color: #FEC68D;
+}
 .girl_img{
     position: absolute;
-    width: 90%;
-    right: 2%;
-    top: -9%;
+    width: 40%;
+    right: 6%;
+    top: 5%;
 }
 .login_img{
-    
+    z-index: 1;
     position: absolute;
 width: 30%;
 left: 12%;
-top: 3%;
+top: 6%;
 }
 .form_area{
     position: absolute;
@@ -59,7 +66,7 @@ color: #B7B4B4;
 width: 33px;
 height: 33px;
 left: 116px;
-top: 23%;
+top: 25%;
 color: #000;
 }
 .pass_svg{
